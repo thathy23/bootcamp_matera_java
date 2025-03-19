@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d70bfe-0de2-4bb2-ae1c-34bdea2c34f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExemploEqualsEIgualIgual/TesteEqualsEIgualIgual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/localdate/ExemploLocalDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lombok/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lombok/TestePessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modificador/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modificador/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modificador/TesteFinal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/lista/TesteLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/set/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/set/TestSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/set/TestSetConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +42,14 @@
   "keyToString": {
     "Application.ContaCorrente.executor": "Run",
     "Application.ExemploLocalDate.executor": "Run",
+    "Application.TestSet.executor": "Run",
+    "Application.TestSetConta.executor": "Run",
     "Application.TesteClasseAbstrata.executor": "Run",
     "Application.TesteClasseAnonima.executor": "Run",
     "Application.TesteEqualsEIgualIgual.executor": "Run",
     "Application.TesteFinal.executor": "Run",
     "Application.TesteInterface.executor": "Run",
+    "Application.TesteLista.executor": "Run",
     "Application.TestePessoa.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -66,13 +64,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TesteEqualsEIgualIgual">
-    <configuration name="ContaCorrente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.modificador.ContaCorrente" />
+  <component name="RunManager" selected="Application.TestSetConta">
+    <configuration name="ExemploLocalDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.localdate.ExemploLocalDate" />
       <module name="BootcampMateraJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.modificador.*" />
+          <option name="PATTERN" value="org.example.localdate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploLocalDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.localdate.ExemploLocalDate" />
+    <configuration name="TestSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.set.TestSet" />
       <module name="BootcampMateraJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.localdate.*" />
+          <option name="PATTERN" value="org.example.collections.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSetConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.set.TestSetConta" />
+      <module name="BootcampMateraJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.collections.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.modificador.TesteFinal" />
+    <configuration name="TesteLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.lista.TesteLista" />
       <module name="BootcampMateraJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.modificador.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.lombok.TestePessoa" />
-      <module name="BootcampMateraJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.lombok.*" />
+          <option name="PATTERN" value="org.example.collections.lista.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSetConta" />
+        <item itemvalue="Application.TestSet" />
+        <item itemvalue="Application.TesteLista" />
         <item itemvalue="Application.TesteEqualsEIgualIgual" />
         <item itemvalue="Application.ExemploLocalDate" />
-        <item itemvalue="Application.TestePessoa" />
-        <item itemvalue="Application.TesteFinal" />
-        <item itemvalue="Application.ContaCorrente" />
       </list>
     </recent_temporary>
   </component>
