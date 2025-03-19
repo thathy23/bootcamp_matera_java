@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d70bfe-0de2-4bb2-ae1c-34bdea2c34f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstratas/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstratas/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstratas/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/abstratas/TesteClasseAbstrata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/anonimas/CarteiraContas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/anonimas/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/anonimas/TesteClasseAnonima.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/TesteInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ExemploEqualsEIgualIgual/TesteEqualsEIgualIgual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/localdate/ExemploLocalDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lombok/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lombok/TestePessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modificador/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modificador/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modificador/TesteFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2uSrPty1B7i74gJr0W5aXqvEmr2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,24 +45,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ContaCorrente.executor": "Run",
+    "Application.ExemploLocalDate.executor": "Run",
     "Application.TesteClasseAbstrata.executor": "Run",
     "Application.TesteClasseAnonima.executor": "Run",
+    "Application.TesteEqualsEIgualIgual.executor": "Run",
+    "Application.TesteFinal.executor": "Run",
     "Application.TesteInterface.executor": "Run",
+    "Application.TestePessoa.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/tati/workspace/BootcampMateraJava/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "/home/tati/workspace/bootcamp_matera_java",
+    "onboarding.tips.debug.path": "/home/tati/workspace/BootcampMateraJava/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TesteInterface">
-    <configuration name="TesteClasseAbstrata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.abstratas.TesteClasseAbstrata" />
+  <component name="RunManager" selected="Application.TesteEqualsEIgualIgual">
+    <configuration name="ContaCorrente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.modificador.ContaCorrente" />
       <module name="BootcampMateraJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.abstratas.*" />
+          <option name="PATTERN" value="org.example.modificador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteClasseAnonima" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.abstratas.anonimas.TesteClasseAnonima" />
+    <configuration name="ExemploLocalDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.localdate.ExemploLocalDate" />
       <module name="BootcampMateraJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.abstratas.anonimas.*" />
+          <option name="PATTERN" value="org.example.localdate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +93,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interfaces.TesteInterface" />
+    <configuration name="TesteEqualsEIgualIgual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ExemploEqualsEIgualIgual.TesteEqualsEIgualIgual" />
       <module name="BootcampMateraJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.interfaces.*" />
+          <option name="PATTERN" value="org.example.ExemploEqualsEIgualIgual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.modificador.TesteFinal" />
+      <module name="BootcampMateraJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.modificador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.lombok.TestePessoa" />
+      <module name="BootcampMateraJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lombok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,9 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteInterface" />
-        <item itemvalue="Application.TesteClasseAnonima" />
-        <item itemvalue="Application.TesteClasseAbstrata" />
+        <item itemvalue="Application.TesteEqualsEIgualIgual" />
+        <item itemvalue="Application.ExemploLocalDate" />
+        <item itemvalue="Application.TestePessoa" />
+        <item itemvalue="Application.TesteFinal" />
+        <item itemvalue="Application.ContaCorrente" />
       </list>
     </recent_temporary>
   </component>
